@@ -1,0 +1,86 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header styles */
+header {
+  background: #333;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #77aaff 3px solid;
+}
+
+header h1 {
+  float: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left: 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: #77aaff;
+}
+
+/* Main styles */
+main {
+  padding: 20px 0;
+}
+
+main section {
+  margin-bottom: 40px;
+}
+
+main h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+main p {
+  margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
